@@ -24,7 +24,6 @@ import rmi.demo.springtestdbunitdemo.service.DemoService;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import java.net.URI;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
