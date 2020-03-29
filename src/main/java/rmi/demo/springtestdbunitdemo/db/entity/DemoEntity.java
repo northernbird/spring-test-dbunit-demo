@@ -10,7 +10,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Data
-@Entity
+@Entity(name = "demo")
 @EntityListeners(AuditingEntityListener.class)
 public class DemoEntity extends BaseEntity {
 
