@@ -6,6 +6,6 @@ import java.util.Optional;
 
 public interface DemoRepository extends CrudRepository<DemoEntity, Long> {
 
-  Optional<DemoEntity> findById(Long eventId);
+  Optional<DemoEntity> findById(Long id);
 
 }
