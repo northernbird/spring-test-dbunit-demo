@@ -32,7 +32,8 @@ import java.util.List;
 @ApiResponses({
     @ApiResponse(code = 500,
         message = "Internal server error. Please contact system administrator"),
-    @ApiResponse(code = 400, message = "Invalid request format. Please check request")
+    @ApiResponse(code = 400, message = "Invalid request format. Please check request"),
+    @ApiResponse(code = 401, message = "Request must be authorized")
 })
 @Validated
 public class DemoController {
