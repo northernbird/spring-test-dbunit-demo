@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+    <demo
+            id="1"
+            name="Adam Smith"
+            description="Adam Smith was an 18th-century Scottish economist, philosopher, and author"
+            createTimestamp="2020-03-30 18:59:18"
+            updateTimestamp="2020-03-30 18:59:18"
+            createUser="user"
+            updateUser="user"
+    />
+</dataset>
